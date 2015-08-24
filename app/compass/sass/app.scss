@@ -1,0 +1,22 @@
+@import "compass/reset";
+
+* {
+  margin: 0;
+  transition: all 300ms ease;
+}
+.header {
+  
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  .status-bar {
+    display: flex;
+    display: -webkit-flex;
+    height: 20px;
+    margin-bottom: 5px;
+    .status-item {
+      flex: 1;
+    }
+  }
+}
